@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 I'm a first year PhD student at the University of Maryland working at the intersection of condensed matter theory and quantum information science. 
+
 Section
 ======
 Text [hyperlink](https://pages.github.com/) 
