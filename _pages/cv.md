@@ -17,20 +17,16 @@ Education
 
 Work experience
 ======
-* May 2020-May 2021: Research Assistant
-  * Demler Group, Harvard University
+* May 2020-May 2021: Research Assistant with the Demler Group, Harvard University
   * Studied scattering of magnons in magnetic thin films toward the construction of a novel scattering platform
   * Collaborated closely with experimental colleagues to develop accurate and descriptive models
   * Supervisor: Professor Eugene Demler
 
-* December 2018-May 2020: Research Assistant
-  * Heller Group, Harvard University
+* December 2018-May 2020: Research Assistant with the Heller Group, Harvard University
   * Developed semiclassical methods for studying inelastic scattering in solid-state systems
-  * Explored specific solid-state applications, including the frozen phonon model of thermal diffuse scattering
   * Supervisor: Professor Eric Heller
   
-* Summer 2018: Research Assistant
-  * Vogelaar Group, Virginia Tech
+* Summer 2018: Research Assistant with the Vogelaar Group, Virginia Tech
   * Assisted in the design and construction of the NuLat neutrino detector and began development of a Python simulation of the Borexino detector for internal radioactive background discernment
   * Supervisor: Professor Bruce Vogelaar
   
