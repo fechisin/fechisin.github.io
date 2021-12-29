@@ -37,7 +37,7 @@ Service and leadership
   * Launched _Polaris_, a mentorship program for physics students at Harvard College; ∼150 participants
 
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -55,3 +55,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
  
+ -->
