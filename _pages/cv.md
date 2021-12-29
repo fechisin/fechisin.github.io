@@ -12,28 +12,34 @@ redirect_from:
 Education
 ======
 * A.B. in Physics and Mathematics, Harvard University, 2021
+  * Graduated _magna cum laude_
 * Ph.D in Theoretical Physics, University of Maryland, 2027 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2020-May 2021: Research Assistant
+  * Demler Group, Harvard University
+  * Studied scattering of magnons in magnetic thin films toward the construction of a novel scattering platform
+  * Collaborated closely with experimental colleagues to develop accurate and descriptive models
+  * Supervisor: Professor Eugene Demler
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* December 2018-May 2020: Research Assistant
+  * Heller Group, Harvard University
+  * Developed semiclassical methods for studying inelastic scattering in solid-state systems
+  * Explored specific solid-state applications, including the frozen phonon model of thermal diffuse scattering
+  * Supervisor: Professor Eric Heller
   
-Skills
+* Summer 2018: Research Assistant
+  * Vogelaar Group, Virginia Tech
+  * Assisted in the design and construction of the NuLat neutrino detector and began development of a Python simulation of the Borexino detector for internal radioactive background discernment
+  * Supervisor: Professor Bruce Vogelaar
+  
+Service and leadership
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Academic Year 2020-21: Co-President, Harvard-Radcliffe Society of Physics Students
+  * Organized _Chilloquium_ speaker series featuring world-renowned physicists; ∼20-50 attendees per week
+  * Launched _Polaris_, a mentorship program for physics students at Harvard College; ∼150 participants
+
 
 Publications
 ======
@@ -52,7 +58,4 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+ 
