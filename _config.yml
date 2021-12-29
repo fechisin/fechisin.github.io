@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "College Park, MD"
-  employer         : "Joint Quantum Institute, University of Maryland"
+  employer         : "Joint Quantum Institute,\n University of Maryland"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=uQFhtHMAAAAJ&hl=en"
   email            : "fechisin [at] umd.edu"
