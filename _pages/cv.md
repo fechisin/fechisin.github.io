@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
+* Ph.D in Theoretical Physics, University of Maryland, 2027 (expected)
 * A.B. in Physics and Mathematics, Harvard University, 2021
   * Graduated _magna cum laude_
-* Ph.D in Theoretical Physics, University of Maryland, 2027 (expected)
 
 Work experience
 ======
