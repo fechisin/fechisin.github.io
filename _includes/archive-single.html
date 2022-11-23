@@ -30,12 +30,12 @@
         font-size: 20px;
         padding-left: 20px;
       }
-      h1 {
+      h2 {
         color: #000;
         position: relative;
         text-decoration: none;
       }
-      h1::before {
+      h2::before {
         background: hsl(45 100% 70%);
         content: "";
         inset: 0;
@@ -45,7 +45,7 @@
         transition: transform 0.5s ease-in-out;
         z-index: -1;
       }
-      h1:hover::before {
+      h2:hover::before {
         transform: scaleX(1);
         transform-origin: left;
       }
@@ -68,11 +68,11 @@
 
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.collection == 'publications' %}
-        <h1>{{ title }}</h1>
+          {{ title }}
         {% elsif post.link %}
-          <h1>{{ title }}</h1> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {{ title }} <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
-          <h1>{{ title }}</h1>
+          {{ title }}
         {% endif %}
       </h2>
 
