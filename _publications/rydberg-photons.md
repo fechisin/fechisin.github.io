@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/rydberg-photons
 excerpt: 'excerpt'
 date: 2022-10-19
-venue: ''
+venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2210.10798'
 citation: ''
 ---
