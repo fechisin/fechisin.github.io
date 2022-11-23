@@ -3,7 +3,7 @@ title: "Non-Demolition Photon Counting in a Two-Dimensional RydbergAtom Array"
 collection: publications
 permalink: /publication/rydberg-photons
 excerpt: 'excerpt'
-date: In progress
+date:
 venue: ''
 paperurl: 'https://arxiv.org/abs/2210.10798'
 citation: ''
