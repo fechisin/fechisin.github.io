@@ -30,11 +30,7 @@
       }
 </style>
 
-<img src="https://picsum.photos/200/300" />
 <div class="container">
-  <div class="image">
-        <img src="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg">
-  </div>
   <div class="{{ include.type | default: "list" }}__item">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       {% if include.type == "grid" and teaser %}
@@ -123,5 +119,8 @@
       {% endif %}
 
     </article>
+  </div>
+  <div class="image">
+        <img src="https://i.pinimg.com/originals/26/ea/fc/26eafc0b14488fea03fa8fa9751203ff.jpg">
   </div>
 </div>
