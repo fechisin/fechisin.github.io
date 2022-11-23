@@ -6,7 +6,7 @@ excerpt: 'Rydberg arrays merge the collective behavior of ordered atomic arrays 
 date: 2022-10-19
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2210.10798'
-citation: 'Fechisin, C., Sharma, K., Bienias, P., Rolston, S. L., Porto, J. V., Gullans, M. J., & Gorshkov, A. V. (2022). Quantum Non-Demolition Photon Counting in a 2d Rydberg Atom Array. _arXiv preprint arXiv:2210.10798._'
+citation: 'Fechisin, C., Sharma, K., Bienias, P., Rolston, S. L., Porto, J. V., Gullans, M. J., & Gorshkov, A. V. (2022). Quantum Non-Demolition Photon Counting in a 2d Rydberg Atom Array. *arXiv preprint arXiv:2210.10798.*'
 ---
 Description
 
