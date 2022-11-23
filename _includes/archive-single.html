@@ -30,12 +30,12 @@
         font-size: 20px;
         padding-left: 20px;
       }
-      .a {
+      .high {
         color: #000;
         position: relative;
         text-decoration: none;
       }
-      .a::before {
+      .high::before {
         background: hsl(45 100% 70%);
         content: "";
         inset: 0;
@@ -45,7 +45,7 @@
         transition: transform 0.5s ease-in-out;
         z-index: -1;
       }
-      .a:hover::before {
+      .high:hover::before {
         transform: scaleX(1);
         transform-origin: left;
       }
@@ -68,11 +68,11 @@
 
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.collection == 'publications' %}
-        <a style = "a">{{ title }}</a>
+        <a style = "high">{{ title }}</a>
         {% elsif post.link %}
-          <a href="{{ post.link }}" style = "a">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          <a href="{{ post.link }}" style = "high">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" style = "a" rel="permalink">{{ title }}</a>
+          <a href="{{ base_path }}{{ post.url }}" style = "high" rel="permalink">{{ title }}</a>
         {% endif %}
       </h2>
 
