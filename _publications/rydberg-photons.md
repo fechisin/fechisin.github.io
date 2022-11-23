@@ -5,7 +5,7 @@ permalink: /publication/rydberg-photons
 excerpt: 'excerpt'
 date: In progress
 venue: ''
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2210.10798'
 citation: ''
 ---
 Description
