@@ -68,11 +68,11 @@
 
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.collection == 'publications' %}
-        <a style = "high">{{ title }}</a>
+        <p style = "high">{{ title }}</p>
         {% elsif post.link %}
-          <a href="{{ post.link }}" style = "high">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          <p href="{{ post.link }}" style = "high">{{ title }}</p> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" style = "high" rel="permalink">{{ title }}</a>
+          <p href="{{ base_path }}{{ post.url }}" style = "high" rel="permalink">{{ title }}</p>
         {% endif %}
       </h2>
 
@@ -97,7 +97,7 @@
         <!-- citation and icon code -->
         <p>
         {% if post.citation %}
-          <a style="high">{{ post.citation }}</a>
+          <p style="high">{{ post.citation }}</p>
         {% endif %}
         <br>
         {% if post.link %}
