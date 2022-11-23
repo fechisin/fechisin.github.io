@@ -8,6 +8,7 @@ venue: 'arXiv'
 paperurl: '/files/rydberg_qnd.pdf'
 citation: 'Fechisin, C., Sharma, K., Bienias, P., Rolston, S. L., Porto, J. V., Gullans, M. J., & Gorshkov, A. V. (2022). Quantum Non-Demolition Photon Counting in a 2d Rydberg Atom Array. *arXiv preprint arXiv:2210.10798.*'
 link: 'https://arxiv.org/abs/2210.10798'
+imgurl: '/files/rydberg_qnd.png'
 
 ---
 Description
