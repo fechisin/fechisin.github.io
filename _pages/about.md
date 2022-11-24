@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a first year physics PhD student at the University of Maryland working at the intersection of condensed matter theory and quantum information science. I'm especially interested in the mathematical machinery underlying quantum phases of matter as well as the observation of exotic quantum phases. I'm currently working with [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/) and [Victor Albert](https://sites.google.com/site/victorvalbert/home).
+I'm a second-year physics PhD student at the University of Maryland working at the intersection of condensed matter theory and quantum information science. I'm especially interested in the mathematical machinery underlying quantum phases of matter as well as the observation of exotic quantum phases. I'm currently working with [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/) and [Victor Albert](https://sites.google.com/site/victorvalbert/home).
 
 How did I get here?
 ======
