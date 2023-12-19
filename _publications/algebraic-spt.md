@@ -1,5 +1,5 @@
 ---
-title: "Fusion category SPT order in the generalized 1d cluster state"
+title: "Non-invertible symmetry-protected topological order in a group-based cluster state"
 collection: publications
 permalink: /publication/algebraic-spt
 excerpt: ''
