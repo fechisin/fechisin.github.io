@@ -5,9 +5,9 @@ permalink: /publication/algebraic-spt
 excerpt: ''
 date: 2023-12-14
 venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2312.09272'
-citation: 'Fechisin, C., Tantivasadakarn, N., Albert, V.A. (2023). Non-invertible symmetry-protected topological order in a group-based cluster state. *In Preparation.*'
-link: ''
+paperurl: ''
+citation: 'Fechisin, C., Tantivasadakarn, N., Albert, V.A. (2023). Non-invertible symmetry-protected topological order in a group-based cluster state. *arXiv preprint arXiv: 	arXiv:2312.09272.*'
+link: 'https://arxiv.org/abs/2312.09272'
 imgurl: '/files/algebraic-spt.png'
 
 ---
