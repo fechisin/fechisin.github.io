@@ -32,7 +32,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.inspirehep %}
-        <li><a href="https://inspirehep.net/authors//{{ author.inspirehep }}"><i class="ai ai-inspire-square" aria-hidden="true"></i> iNSPIRE HEP</a></li>
+        <li><a href="https://inspirehep.net/authors/{{ author.inspirehep }}"><i class="ai ai-inspire-square" aria-hidden="true"></i> iNSPIRE HEP</a></li>
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></li>
