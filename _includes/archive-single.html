@@ -88,6 +88,19 @@
         {% endif %}
       </h2>
 
+      <style>
+              .publication-title {
+                color: black; /* Default color */
+                text-decoration: none; /* Removes underline */
+                transition: color 0.3s ease; /* Smooth transition */
+              }
+            
+              .publication-title:hover {
+                color: #007BFF; /* Change to the color you want, e.g., blue */
+                text-decoration: underline; /* Optional: Add underline on hover */
+              }
+      </style>
+
 
       {% if post.read_time %}
       {% elsif post.read_time and post.collection == 'posts' %}
