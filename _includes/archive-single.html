@@ -22,11 +22,13 @@
       }
       img {
 /*         max-width: 80% */
-        width: 400px; /* Set the desired horizontal size */
+        width: 200px; /* Set the desired horizontal size */
         height: auto; /* Maintain the aspect ratio */
       }
       .image {
-        flex-basis: 400px;
+        flex-basis: 200px;
+        flex-grow: 0;
+        flex-shrink: 0;
       }
       .text {
         font-size: 20px;
@@ -168,7 +170,7 @@
 
     </article>
   </div>
-  <div class="image" style="flex: 0 0 400px">
+  <div class="image">
         <img src="{{ post.imgurl }}">
   </div>
 </div>
