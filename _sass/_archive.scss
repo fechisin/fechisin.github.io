@@ -61,12 +61,15 @@
   margin-top: 0;
   font-size: $type-size-6;
    /* We'll see if this works... */
-  display: block; /* Ensure it remains a block-level element */
+  // display: block; /* Ensure it remains a block-level element */
 
   & + p {
     text-indent: 0;
-    text-align: justify;
+    // text-align: justify;
   }
+}
+.archive__item-excerpt p{
+    text-align: justify;
 }
 
 .archive__item-teaser {
