@@ -77,9 +77,10 @@
   // height: 36px;
 
   @include breakpoint($large) {
-    display: block;
+    display: flex;
     width: auto;
     height: auto;
+    justify-content: center;
   }
 
   img {
