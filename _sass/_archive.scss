@@ -60,6 +60,9 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+   /* We'll see if this works... */
+  display: block; /* Ensure it remains a block-level element */
+  text-align: justify;
 
   & + p {
     text-indent: 0;
