@@ -20,6 +20,14 @@
         align-items: center;
         justify-content: space-between
       }
+
+      @media (max-width: 600px) { /* Adjust breakpoint as needed */
+      .container {
+        display: flex;
+        flex-direction: column; /* Stacks image above text */
+        align-items: flex-start; /* Aligns text under the image */
+      }
+    }
       img {
 /*         max-width: 80% */
         width: 275px; /* Set the desired horizontal size */
