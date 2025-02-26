@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a fourth-year physics PhD student at the University of Maryland studying condensed matter theory and quantum information. I'm especially interested in topological quantum matter. I'm advised by [Maissam Barkeshli](https://www.mbarkeshli.com/home) and [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/).
+I'm a fourth-year physics PhD student at the University of Maryland studying condensed matter theory and quantum information. I'm especially interested in topological quantum matter. I'm advised by [Maissam Barkeshli](https://www.mbarkeshli.com/home) and [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/) and you can explore my work in the [Research](https://fechisin.github.io/research/) tab.
 
 How did I get here?
 ======
