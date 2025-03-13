@@ -1,12 +1,12 @@
 ---
-title: "Non-invertible symmetry-protected topological order in a group-based cluster state"
+title: "Noninvertible Symmetry-Protected Topological Order in a Group-Based Cluster State"
 collection: publications
 permalink: /publication/algebraic-spt
 excerpt: 'The cluster state is the simplest example of SPT order, protected by a $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry. In this work, we show that a generalized cluster state with fusion category symmetry $G\times\text{Rep}(G)$ shares many qualitative features with the ordinary cluster state and should be thought of as an SPT protected by a non-invertible symmetry.'
-date: 2023-12-14
-venue: 'arXiv'
-citation: '<b>Christopher Fechisin</b>, Nathanan Tantivasadakarn, Victor V. Albert. (2023). Non-invertible symmetry-protected topological order in a group-based cluster state. <em>Preprint arXiv:2312.09272</em>.'
-link: 'https://arxiv.org/abs/2312.09272'
+date: 2025-03-13
+venue: 'Physical Review X'
+citation: '<b>Christopher Fechisin</b>, Nathanan Tantivasadakarn, Victor V. Albert. (2025). Noninvertible Symmetry-Protected Topological Order in a Group-Based Cluster State. Phys. Rev. X 15, 011058.'
+link: 'https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.011058'
 imgurl: '/images/SPT_key_image-01.png'
 
 ---
