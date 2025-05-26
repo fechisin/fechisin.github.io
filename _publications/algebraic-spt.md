@@ -8,6 +8,10 @@ venue: 'Physical Review X'
 citation: '<b>Christopher Fechisin</b>, Nathanan Tantivasadakarn, Victor V. Albert. (2025). Noninvertible Symmetry-Protected Topological Order in a Group-Based Cluster State. <em>Phys. Rev. X 15, 011058.</em>'
 link: 'https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.011058'
 imgurl: '/images/SPT_key_image-01.png'
+tags:
+  - SPT Phases
+  - cond-mat
+  - hep-th
 
 ---
 Description

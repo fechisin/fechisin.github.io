@@ -45,6 +45,54 @@
         text-align: justify;
       }
 
+      .tag {
+        display: inline-block;
+        color: white;
+        padding: 4px 10px;
+        margin: 4px 6px 0 0;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        /* font-family: sans-serif; */
+        /* text-transform: lowercase; */
+        letter-spacing: 0.5px;
+      }
+
+      /* Default background color */
+      .tag {
+        background-color: #0066cc;
+      }
+
+      /* Custom colors for specific tags */
+      .tag-spt-phases {
+        color: #e1c9d6;
+        background-color: #713e5a;
+      }
+
+      .tag-mixed-states {
+        color: #f1d3b1;
+        background-color: #794b16;
+      }
+
+      .tag-crystalline-symmetries {
+        color: #d5d2cd;
+        background-color: #4D4942;
+      }
+
+      .tag-quant-ph {
+        color: #c8dfcf;
+        background-color: #3c6748;
+      }
+
+      .tag-hep-th {
+        color: #a8e2ff;
+        background-color: #006DA3;
+      }
+
+      .tag-cond-mat {
+        color: #fdc0ae;
+        background-color: #992C0B;
+      }
+
 /*       .title {
         color: black !important; 
         text-decoration: none !important; 
@@ -80,7 +128,7 @@
     }
 </style>
 
-<div class="container">
+<div class="publication-item container" data-tags="{{ post.tags | join: ',' }}">
   <div class="{{ include.type | default: "list" }}__item">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       {% if include.type == "grid" and teaser %}
@@ -183,6 +231,14 @@
 
       {% if post.citation %}
         <p style="high">{{ post.citation }}</p>
+      {% endif %}
+
+      {% if post.tags %}
+        <p class="archive__item-tags">
+          {% for tag in post.tags %}
+            <span class="tag tag-{{ tag | slugify }}">{{ tag }}</span>
+          {% endfor %}
+        </p>
       {% endif %}
 
     </article>
