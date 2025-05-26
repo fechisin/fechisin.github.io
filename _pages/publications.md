@@ -29,7 +29,12 @@ author_profile: true
     font-weight: 600;
     margin-right: 8px;
     margin-bottom: -50px;
-    /* You can add more styles here */
+  }
+
+  @media (max-width: 600px) {
+    .tag .tag-remove {
+      display: inline;
+    }
   }
 </style>
 
