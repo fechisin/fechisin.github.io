@@ -2,44 +2,54 @@
 title: "Conferences Attended"
 collection: involvement
 ---
-🎤 Talk         📊 Poster <br>
+  
+<p>
+  🎤 <strong>Talk</strong> &nbsp;&nbsp; 📊 <strong>Poster</strong>
+</p>
+  
+<style>
+  .conference-details {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+</style>
+  
 <details>
   <summary>Institute for Robust Quantum Simulation Workshop 2025 📊</summary>
-  <div style="padding-left: 20px; margin-top: 5px;">
-  Durham, NC — June 4–5, 2025
+  <div class="conference-details">
+    Durham, NC — June 4–5, 2025
   </div>
 </details>
   
 <details>
   <summary>APS Global Physics Summit 2025 🎤</summary>
-  <div style="padding-left: 20px; margin-top: 5px;">
-  Anaheim, CA — March 16–21, 2025<br>
-  Talk: <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
+  <div class="conference-details">
+    Anaheim, CA — March 16–21, 2025 <br>
+    Talk: <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
   </div>
 </details>
   
 <details>
   <summary>Princeton Summer School on Condensed Matter Physics 2023 📊</summary>
-  <div style="padding-left: 20px; margin-top: 5px;">
-  Princeton, NJ — July 10–14, 2023<br>
-  Topic: "Fractionalization, criticality and unconventional quantum materials"<br>
-  Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+  <div class="conference-details">
+    Princeton, NJ — July 10–14, 2023 <br>
+    Topic: "Fractionalization, criticality and unconventional quantum materials" <br>
+    Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
   </div>
 </details>
   
 <details>
   <summary>SPIE Defense + Commercial Sensing 2023 🎤</summary>
-  <div style="padding-left: 20px; margin-top: 5px;">
-  Orlando, FL — April 30-May 4, 2023 <br>
-  Talk: <em>Quantum non-demolition photon counting in a 2d Rydberg atom array</em>
+  <div class="conference-details">
+    Orlando, FL — April 30–May 4, 2023 <br>
+    Talk: <em>Quantum non-demolition photon counting in a 2d Rydberg atom array</em>
   </div>
 </details>
   
 <details>
   <summary>26th Conference on Quantum Information Processing 📊</summary>
-  <div style="padding-left: 20px; margin-top: 5px;">
-  Ghent, Belgium — February 6–10, 2023 <br>
-  Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+  <div class="conference-details">
+    Ghent, Belgium — February 6–10, 2023 <br>
+    Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
   </div>
 </details>
-
