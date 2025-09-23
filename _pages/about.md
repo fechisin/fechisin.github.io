@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "👋🏻 About Me"
 excerpt: "About Me" 
 author_profile: true
 redirect_from: 
@@ -16,7 +16,7 @@ ul, ol {
 }
 </style>
 
-Education 
+🎓 Education 
 ======
 2021-Present: **PhD** in Theoretical Physics at the **University of Maryland**
 * Advisors: [Maissam Barkeshli](https://www.mbarkeshli.com/home) and [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/)
