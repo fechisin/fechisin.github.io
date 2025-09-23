@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "📄 Publications"
     url: /publications/
 
-  - title: "Involvement"
+  - title: "🏛️ Involvement"
     url: /involvement/
 
 #   - title: "Talks"
