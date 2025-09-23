@@ -9,6 +9,7 @@ collection: involvement
   
 <details>
   <summary><strong>APS Global Physics Summit 2025</strong></summary>
+  <div style="padding-left: 20px; margin-top: 5px;">
   Anaheim, CA — March 16–21, 2025<br>
   Talk: <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
 </details>
@@ -24,6 +25,7 @@ collection: involvement
   
 <details>
   <summary><strong>26th Conference on Quantum Information Processing</strong></summary>
+  <div style="padding-left: 20px; margin-top: 5px;">
   <p>
   Ghent, Belgium — February 6–10, 2023 <br>
   Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
