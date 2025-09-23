@@ -4,7 +4,9 @@ collection: involvement
 ---
 <details>
   <summary>Institute for Robust Quantum Simulation Workshop 2025</summary>
+  <div style="padding-left: 20px; margin-top: 5px;">
   Durham, NC — June 4–5, 2025
+  </div>
 </details>
   
 <details>
@@ -16,21 +18,19 @@ collection: involvement
 </details>
   
 <details>
-  <summary>Princeton Summer School on Condensed Matter Physics</summary>
-  <p>
+  <summary>Princeton Summer School on Condensed Matter Physics 2023</summary>
+  <div style="padding-left: 20px; margin-top: 5px;">
   Princeton, NJ — July 10–14, 2023<br>
   Topic: "Fractionalization, criticality and unconventional quantum materials"<br>
   Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
-  </p>
+  </div>
 </details>
   
 <details>
   <summary>26th Conference on Quantum Information Processing</summary>
   <div style="padding-left: 20px; margin-top: 5px;">
-  <p>
   Ghent, Belgium — February 6–10, 2023 <br>
   Poster: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
-  </p>
   </div>
 </details>
 
