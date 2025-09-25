@@ -245,7 +245,9 @@
 
     </article>
   </div>
-  <div class="image">
-        <img src="{{ post.imgurl }}">
-  </div>
+  {% if post.imgurl %}
+    <div class="image">
+          <img src="{{ post.imgurl }}">
+    </div>
+  {% endif %}
 </div>
