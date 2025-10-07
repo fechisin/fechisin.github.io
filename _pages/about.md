@@ -30,7 +30,7 @@ ul, ol {
 
 ![A word cloud of research interests. The most prominent words include "quantum," "state," "symmetry," and "topological."](/images/October25.png "Interests word cloud") -->
 <p>I've generated a word cloud from my publications and notes to give a big-picture overview of my interests. It was last updated in October 2025. </p>
-<img src="/images/October25.png" alt="A word cloud of research interests. The most prominent words include quantum, state, symmetry, and topological." style="display:block; margin:0em auto; max-width:100%;">
+<img src="/images/october25.png" alt="A word cloud of research interests. The most prominent words include quantum, state, symmetry, and topological." style="display:block; margin:0em auto; max-width:100%;">
 
 <!-- How did I get here?
 ======
