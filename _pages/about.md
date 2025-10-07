@@ -24,6 +24,14 @@ ul, ol {
 2017-2021: **AB** in Physics and Mathematics with highest honors at **Harvard University**
 * Advisors: [Eric Heller](https://www.physics.harvard.edu/people/facpages/heller) and [Eugene Demler](https://www.phys.ethz.ch/the-department/people/person-detail.MjE0OTUw.TGlzdC84NDUsMTE3MjU5OTI5OQ==.html)
 
+🌟 Research at a Glance 
+======
+<!-- I've generated a word cloud from my publications and notes to give a big-picture overview of my interests. It was last updated in October 2025. 
+
+![A word cloud of research interests. The most prominent words include "quantum," "state," "symmetry," and "topological."](/images/October25.png "Interests word cloud") -->
+<p>I've generated a word cloud from my publications and notes to give a big-picture overview of my interests. It was last updated in October 2025. </p>
+<img src="/images/October25.png" alt="A word cloud of research interests. The most prominent words include quantum, state, symmetry, and topological." style="display:block; margin:0em auto; max-width:100%;">
+
 <!-- How did I get here?
 ======
 I grew up in a small town outside of Roanoke, Virginia.<!--My journey in physics began with some awesome teachers at the [Roanoke Valley Governor's School](https://www.rvgs.k12.va.us/), a half-day STEM magnet high school I commuted to each morning for half of my classes.-->
