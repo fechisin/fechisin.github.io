@@ -14,6 +14,17 @@ ul, ol {
   margin-top: -25px;
   padding-left: 40px;
 }
+
+  
+h1::first-letter,
+h2::first-letter {
+}
+
+h1, h2 {
+  margin-top: 1.5em;   /* space before each main section */
+  /* margin-bottom: 0em;  space after each main section */
+}
+
 </style>
 
 🎓 Education 
