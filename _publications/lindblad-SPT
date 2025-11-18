@@ -3,10 +3,10 @@ title: "Instability of steady-state mixed-state symmetry-protected topological o
 collection: publications
 permalink: /publication/lindblad-SPT
 excerpt: 'In this work, we interrogate the analogy between (i) pure state SPTs as ground states of local Hamiltonians and (ii) mixed state SPTs as steady states of local Lindbladians. We construct a Lindbladian which hosts a simple mixed-state SPT within its steady-state subspace, then add symmetric local perturbations to see if the new steady states lie in the same mixed-state phase as the original. We find that for generic symmetric perturbations, the answer is no, due to the onset of strong-to-weak spontaneous symmetry breaking.'
-date: 2024-10-16
+date: 2025-11-17
 venue: 'arXiv'
-citation: 'Jeet Shah, <b>Christopher Fechisin</b>, Yu-Xin Wang, Joseph T. Iosue, James D. Watson, Yan-Qi Wang, Brayden Ware, Alexey V. Gorshkov, Cheng-Ju Lin. (2024). Instability of steady-state mixed-state symmetry-protected topological order to strong-to-weak spontaneous symmetry breaking. <em>Preprint arXiv:2410.12900</em>.'
-link: 'https://arxiv.org/abs/2410.12900'
+citation: 'Jeet Shah, <b>Christopher Fechisin</b>, Yu-Xin Wang, Joseph T. Iosue, James D. Watson, Yan-Qi Wang, Brayden Ware, Alexey V. Gorshkov, Cheng-Ju Lin. (2025). Instability of steady-state mixed-state symmetry-protected topological order to strong-to-weak spontaneous symmetry breaking. <em>Quantum 9, 1912</em>.'
+link: 'https://quantum-journal.org/papers/q-2025-11-17-1912/'
 imgurl: '/files/phase_diagram_SW-SSB-01.png'
 tags:
   - Mixed States
