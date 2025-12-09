@@ -255,7 +255,7 @@
       {% if post.journal or post.arxiv %}
         <p class="pub-meta">
           {% if post.journal %}
-            <a href="{{ post.link | default: '#' }}">{{ post.journal }}</a>
+            <a href="{{ post.link | default: '#' }}"><emp>{{ post.journal }}</emp></a>
           {% endif %}
           {% if post.year %}
            ({{ post.year }})
