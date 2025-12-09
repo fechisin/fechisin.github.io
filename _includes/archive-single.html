@@ -255,10 +255,10 @@
       {% if post.journal or post.arxiv %}
         <p class="pub-meta">
           {% if post.journal %}
-            <a href="{{ post.journal_url | default: '#' }}">{{ post.journal }}</a>
+            <a href="{{ post.link | default: '#' }}">{{ post.journal }}</a>
           {% endif %}
           {% if post.year %}
-            , {{ post.year }}
+           ({{ post.year }})
           {% endif %}
           {% if post.journal and post.arxiv %}
             &nbsp;|&nbsp;
