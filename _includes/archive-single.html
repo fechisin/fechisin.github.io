@@ -247,6 +247,23 @@
         <p style="high">{{ post.citation }}</p>
       {% endif %}
 
+      {% if post.journal or post.arxiv %}
+        <p class="pub-meta">
+          {% if post.journal %}
+            <a href="{{ post.journal_url | default: '#' }}">{{ post.journal }}</a>
+          {% endif %}
+          {% if post.year %}
+            , {{ post.year }}
+          {% endif %}
+          {% if post.journal and post.arxiv %}
+            &nbsp;|&nbsp;
+          {% endif %}
+          {% if post.arxiv %}
+            <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
+          {% endif %}
+        </p>
+      {% endif %}
+
       {% if post.tags %}
         <p class="archive__item-tags">
           {% for tag in post.tags %}
