@@ -8,7 +8,7 @@ venue: 'Quantum'
 citation: 'Jeet Shah, <b>Christopher Fechisin</b>, Yu-Xin Wang, Joseph T. Iosue, James D. Watson, Yan-Qi Wang, Brayden Ware, Alexey V. Gorshkov, Cheng-Ju Lin'
 journal: 'Quantum'
 year: '2025'
-arXiv: '2410.12900'
+arxiv: '2410.12900'
 link: 'https://quantum-journal.org/papers/q-2025-11-17-1912/'
 imgurl: '/files/phase_diagram_SW-SSB-01.png'
 tags:
