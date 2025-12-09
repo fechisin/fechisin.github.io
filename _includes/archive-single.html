@@ -167,7 +167,7 @@
         {% endif %}
       </h2> -->
 
-            <h2 class="archive__item-title" itemprop="headline">
+            <!-- <h2 class="archive__item-title" itemprop="headline">
         {% if post.collection == 'publications' and post.link %}
           <a href="{{ post.link }}" rel="noopener noreferrer" target="_blank">{{ title }}</a>
         {% elsif post.collection == 'publications' %}
@@ -177,7 +177,12 @@
         {% else %}
           {{ title }}
         {% endif %}
+      </h2> -->
+
+      <h2 class="archive__item-title" itemprop="headline">
+        {{ title }}
       </h2>
+
 
 
       {% if post.read_time %}
