@@ -7,8 +7,8 @@ date: 2025-03-13
 venue: 'Physical Review X'
 citation: '<b>Christopher Fechisin</b>, Nathanan Tantivasadakarn, Victor V. Albert
 journal: 'Physical Review X'
-year: 2025
-arxiv: "2312.09272"
+year: '2025'
+arxiv: '2312.09272'
 link: 'https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.011058'
 imgurl: '/images/SPT_key_image-01.png'
 tags:
