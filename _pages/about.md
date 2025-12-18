@@ -31,7 +31,7 @@ h1, h2 {
 ======
 2021-Present: **PhD** in Theoretical Physics at the **University of Maryland**
 * Advisors: [Maissam Barkeshli](https://www.mbarkeshli.com/home) and [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/)
-* Other Collaborators: [Victor Albert](https://sites.google.com/site/victorvalbert) and [Zohar Komargodski](https://scgp.stonybrook.edu/people/faculty/bios/zohar-komargodski)
+* Other Collaborators: [Victor Albert](https://sites.google.com/site/victorvalbert), [Nathanan Tantivasadakarn](https://scholar.google.com/citations?user=QUj3lAIAAAAJ&hl=en), and [Zohar Komargodski](https://scgp.stonybrook.edu/people/faculty/bios/zohar-komargodski)
 
 2017-2021: **AB** in Physics and Mathematics with highest honors at **Harvard University**
 * Advisors: [Eric Heller](https://www.physics.harvard.edu/people/facpages/heller) and [Eugene Demler](https://www.phys.ethz.ch/the-department/people/person-detail.MjE0OTUw.TGlzdC84NDUsMTE3MjU5OTI5OQ==.html)
