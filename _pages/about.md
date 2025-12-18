@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a physics PhD student at the University of Maryland studying condensed matter theory and quantum information. I'm advised by Maissam Barkeshli and Alexey Gorshkov and I'm particularly interested in topological quantum matter. I especially enjoy thinking about symmetries, working with tensor networks, and applying tools from quantum field theory and mathematics. You can explore my work in the [**Publications**](https://fechisin.github.io/publications/) tab.
+I'm a physics PhD student at the University of Maryland studying condensed matter theory and quantum information. I'm advised by Maissam Barkeshli and Alexey Gorshkov and I'm particularly interested in topological quantum matter. I especially enjoy thinking about (conventional and generalized) symmetries, working with tensor networks, and applying tools from quantum field theory and mathematics. You can explore my work in the [**Publications**](https://fechisin.github.io/publications/) tab.
 
 <style>
 ul, ol {
@@ -31,6 +31,7 @@ h1, h2 {
 ======
 2021-Present: **PhD** in Theoretical Physics at the **University of Maryland**
 * Advisors: [Maissam Barkeshli](https://www.mbarkeshli.com/home) and [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/)
+* Other Collaborators: [Victor Albert](https://sites.google.com/site/victorvalbert) and [Zohar Komargodski](https://scgp.stonybrook.edu/people/faculty/bios/zohar-komargodski)
 
 2017-2021: **AB** in Physics and Mathematics with highest honors at **Harvard University**
 * Advisors: [Eric Heller](https://www.physics.harvard.edu/people/facpages/heller) and [Eugene Demler](https://www.phys.ethz.ch/the-department/people/person-detail.MjE0OTUw.TGlzdC84NDUsMTE3MjU5OTI5OQ==.html)
