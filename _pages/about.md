@@ -7,7 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a physics PhD student at the University of Maryland studying condensed matter theory and quantum information. I'm advised by Maissam Barkeshli and Alexey Gorshkov and I'm particularly interested in topological quantum matter. I especially enjoy thinking about (conventional and generalized) symmetries, working with tensor networks, and applying tools from quantum field theory and mathematics. You can explore my work in the [**Publications**](https://fechisin.github.io/publications/) tab.
+I'm a physics PhD student at the University of Maryland studying condensed matter theory and quantum information. I'm advised by Maissam Barkeshli and Alexey Gorshkov and I'm particularly interested in topological quantum matter. I especially enjoy thinking about (conventional and generalized) symmetries, working with tensor networks, and applying tools from quantum field theory and mathematics. 
+
+I have worked on the following topics:
+* generalized stabilizer models of topological quantum matter
+* topological phases of mixed states
+* protection and enrichment of topological phases by crystalline symmetry
+
+You can explore my work in the [**Publications**](https://fechisin.github.io/publications/) tab.
 
 <style>
 ul, ol {
