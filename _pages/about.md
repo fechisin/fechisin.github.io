@@ -18,7 +18,7 @@ You can explore my work in the [**Publications**](https://fechisin.github.io/pub
 
 <style>
 ul, ol {
-  margin-top: -25px;
+  margin-top: -20px;
   padding-left: 40px;
 }
 
