@@ -180,7 +180,11 @@
       </h2> -->
 
       <h2 class="archive__item-title" itemprop="headline">
-        <em>{{ title }}</em>
+        {% if post.collection == 'publications' %}
+          <em>{{ title }}</em>
+        {% else %}
+          {{ title }}
+        {% endif %}
       </h2>
 
 
