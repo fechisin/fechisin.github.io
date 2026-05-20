@@ -15,6 +15,6 @@ imgurl:
 tags:
   - SPT Phases
   - cond-mat
-  - quant-phys
+  - quant-ph
 ---
 Description
