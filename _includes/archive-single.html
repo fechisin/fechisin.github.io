@@ -187,7 +187,22 @@
         {% endif %}
       </h2>
 
-
+      {% if post.journal or post.arxiv %}
+        <p class="pub-meta">
+          {% if post.journal %}
+            <a href="{{ post.link | default: '#' }}"><emp>{{ post.journal }}</emp></a>
+          {% endif %}
+          {% if post.year %}
+           ({{ post.year }})
+          {% endif %}
+          {% if post.journal and post.arxiv %}
+            &nbsp;|&nbsp;
+          {% endif %}
+          {% if post.arxiv %}
+            <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
+          {% endif %}
+        </p>
+      {% endif %}
 
       {% if post.read_time %}
       {% elsif post.read_time and post.collection == 'posts' %}
@@ -253,23 +268,6 @@
               <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
             </strong>
           </p>
-        </p>
-      {% endif %}
-
-      {% if post.journal or post.arxiv %}
-        <p class="pub-meta">
-          {% if post.journal %}
-            <a href="{{ post.link | default: '#' }}"><emp>{{ post.journal }}</emp></a>
-          {% endif %}
-          {% if post.year %}
-           ({{ post.year }})
-          {% endif %}
-          {% if post.journal and post.arxiv %}
-            &nbsp;|&nbsp;
-          {% endif %}
-          {% if post.arxiv %}
-            <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
-          {% endif %}
         </p>
       {% endif %}
 
