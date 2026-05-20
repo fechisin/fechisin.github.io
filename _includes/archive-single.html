@@ -188,21 +188,28 @@
       </h2>
 
       {% if post.journal or post.arxiv %}
-        <p class="pub-meta">
-          {% if post.journal %}
-            <a href="{{ post.link | default: '#' }}"><emp>{{ post.journal }}</emp></a>
+      <p class="pub-meta">
+        {% if post.journal %}
+          {% if post.link %}
+            <a href="{{ post.link }}"><em>{{ post.journal }}</em></a>
+          {% else %}
+            <em>{{ post.journal }}</em>
           {% endif %}
-          {% if post.year %}
-           ({{ post.year }})
-          {% endif %}
-          {% if post.journal and post.arxiv %}
-            &nbsp;|&nbsp;
-          {% endif %}
-          {% if post.arxiv %}
-            <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
-          {% endif %}
-        </p>
-      {% endif %}
+        {% endif %}
+    
+        {% if post.year %}
+          ({{ post.year }})
+        {% endif %}
+    
+        {% if post.journal and post.arxiv %}
+          &nbsp;|&nbsp;
+        {% endif %}
+    
+        {% if post.arxiv %}
+          <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
+        {% endif %}
+      </p>
+    {% endif %}
 
       {% if post.read_time %}
       {% elsif post.read_time and post.collection == 'posts' %}
