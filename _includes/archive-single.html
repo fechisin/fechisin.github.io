@@ -256,33 +256,22 @@
         <p style="high">{{ post.citation }}</p>
       {% endif %}
 
-      {% if post.excerpt %}
-      <details class="archive__item-excerpt" itemprop="description">
-        <summary>Abstract</summary>
-    
-        {% if post.collection == 'research' and site.read_more != 'enabled' %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-            <div class="container">
-              {{ post.excerpt }}
-              <div class="overlay"></div>
-            </div>
-          </a>
-    
-        {% elsif site.read_more != 'enabled' %}
-          <div>
-            {{ post.excerpt | markdownify }}
-          </div>
-    
-        {% elsif site.read_more == 'enabled' %}
-          <div>
-            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-            <strong>
-              <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
-            </strong>
-          </div>
-        {% endif %}
-      </details>
-    {% endif %}
+      {% if post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %} 
+      <p class="archive__item-excerpt" itemprop="description"> 
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"> 
+          <div class="container"> {{ post.excerpt }} 
+            <div class="overlay"> </div> 
+          </div> </a> </p> {% elsif post.excerpt and site.read_more != 'enabled' %} 
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p> 
+      
+      {% elsif post.excerpt and site.read_more == 'enabled' %} 
+      <p class="archive__item-excerpt" itemprop="description"> <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} 
+      <strong> 
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a> 
+      </strong> 
+      </p> 
+      </p> 
+      {% endif %}
 
       {% if post.tags %}
         <p class="archive__item-tags">
