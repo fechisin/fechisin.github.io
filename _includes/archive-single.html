@@ -179,7 +179,7 @@
         {% endif %}
       </h2> -->
 
-      <h2 class="archive__item-title" itemprop="headline">
+      <h2 id="{{ post.anchor }}" class="archive__item-title" itemprop="headline">
         {% if post.collection == 'publications' %}
           <em>{{ title }}</em>
         {% else %}
