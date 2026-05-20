@@ -1,7 +1,7 @@
 ---
 title: "Noninvertible Symmetry-Protected Topological Order in a Group-Based Cluster State"
 collection: publications
-permalink: /publication/algebraic-spt
+permalink: /publications/algebraic-spt
 excerpt: 'The cluster state is the simplest example of SPT order, protected by a $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry. In this work, we show that a generalized cluster state with fusion category symmetry $G\times\text{Rep}(G)$ shares many qualitative features with the ordinary cluster state and should be thought of as an SPT protected by a non-invertible symmetry.'
 date: 2025-03-13
 venue: 'Physical Review X'
