@@ -107,10 +107,28 @@
         background-color: #992C0B;
       }
 
+      .pub-meta {
+        margin-bottom: 1rem;
+      }
+      
+      .pub-meta-line {
+        margin-bottom: 0.75rem;
+      }
+      
+      .notify-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        margin: 0;
+      }
+      
       .notify-row {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         gap: 0.5rem;
+        max-width: 100%;
+        flex-wrap: nowrap;
       }
       
       .notify-form input[type="email"],
@@ -119,10 +137,12 @@
         box-sizing: border-box;
         font-size: 0.9rem;
         line-height: 1;
+        margin: 0;
       }
       
       .notify-form input[type="email"] {
         width: 210px;
+        min-width: 0;
         padding: 0 0.75rem;
         border: 1px solid #ccc;
         border-radius: 999px;
@@ -133,6 +153,8 @@
         align-items: center;
         justify-content: center;
         gap: 0.35rem;
+        flex-shrink: 0;
+        width: auto;
         padding: 0 0.9rem;
         border: none;
         border-radius: 999px;
@@ -141,37 +163,44 @@
         cursor: pointer;
         white-space: nowrap;
       }
-
+      
       .notify-icon {
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         line-height: 1;
+      }
+      
+      .notify-note {
+        display: block;
+        width: 100%;
+        margin-top: 0.5rem;
+        color: #666;
+        font-size: 0.85rem;
+        line-height: 1.35;
+        clear: both;
       }
       
       @media (max-width: 600px) {
         .notify-form {
-          display: block;
-          margin-left: 0;
-          margin-top: 0.5rem;
+          width: 100%;
           max-width: 100%;
         }
-      
-        .notify-row {
-          display: flex;
-          width: 100%;
-        }
-      
-        .notify-form input[type="email"] {
-          flex: 1;
-          width: auto;
-          min-width: 0;
-        }
-      
-        .notify-form button {
-          flex-shrink: 0;
-          width: auto;
-        }
-      }
+
+  .notify-row {
+    width: 100%;
+  }
+
+  .notify-form input[type="email"] {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+  }
+
+  .notify-form button {
+    flex: 0 0 auto;
+  }
+}
 
 /*       .title {
         color: black !important; 
@@ -254,18 +283,28 @@
       </h2>
 
       {% if post.journal or post.arxiv %}
-      <p class="pub-meta">
-        {% if post.journal %}
-          {% if post.link %}
-            <a href="{{ post.link }}"><em>{{ post.journal }}</em></a>
-          {% else %}
-            <em>{{ post.journal }}</em>
+      <div class="pub-meta">
+        <p class="pub-meta-line">
+          {% if post.journal %}
+            {% if post.link %}
+              <a href="{{ post.link }}"><em>{{ post.journal }}</em></a>
+            {% else %}
+              <em>{{ post.journal }}</em>
+            {% endif %}
           {% endif %}
-        {% endif %}
       
-        {% if post.year %}
-          ({{ post.year }})
-        {% endif %}
+          {% if post.year %}
+            ({{ post.year }})
+          {% endif %}
+      
+          {% if post.journal and post.arxiv %}
+            &nbsp;|&nbsp;
+          {% endif %}
+      
+          {% if post.arxiv %}
+            <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
+          {% endif %}
+        </p>
       
         {% if post.journal == "In Preparation" %}
           <form
@@ -281,28 +320,20 @@
                 aria-label="Email address"
                 required
               >
-          
+      
               <button type="submit">
                 <span class="notify-icon" aria-hidden="true">🔔</span>
                 <span>Notify me</span>
               </button>
             </div>
-          
+      
             <input type="hidden" name="paper_title" value="{{ title | strip_html }}">
             <input type="hidden" name="page_url" value="{{ site.url }}{{ page.url }}#{{ post.anchor }}">
-          
+      
             <span class="notify-note">You'll receive one email when this work is available on arXiv.</span>
           </form>
         {% endif %}
-      
-        {% if post.journal and post.arxiv %}
-          &nbsp;|&nbsp;
-        {% endif %}
-      
-        {% if post.arxiv %}
-          <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
-        {% endif %}
-      </p>
+      </div>
       {% endif %}
 
       {% if post.read_time %}
