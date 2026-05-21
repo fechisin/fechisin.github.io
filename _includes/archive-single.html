@@ -108,8 +108,11 @@
       }
 
       .notify-form {
-        display: inline-block;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
         margin-left: 0.5rem;
+        vertical-align: middle;
       }
       
       .notify-row {
@@ -118,25 +121,35 @@
         gap: 0.5rem;
       }
       
+      .notify-note {
+        display: block;
+        margin-top: 0.35rem;
+        color: #666;
+        font-size: 0.75rem;
+      }
+      
+      .notify-form input[type="email"],
+      .notify-form button {
+        height: 2.1rem;
+        box-sizing: border-box;
+        font-size: 0.85rem;
+        line-height: 1;
+      }
+      
       .notify-form input[type="email"] {
-        width: 210px;
-        min-width: 0;
-        padding: 0.35rem 0.5rem;
+        padding: 0 0.65rem;
         border: 1px solid #ccc;
         border-radius: 999px;
-        font-size: 0.85rem;
       }
       
       .notify-form button {
-        flex-shrink: 0;
-        width: auto;
-        padding: 0.35rem 0.75rem;
+        padding: 0 0.8rem;
         border: none;
         border-radius: 999px;
         background-color: #0066cc;
         color: white;
-        font-size: 0.85rem;
         cursor: pointer;
+        white-space: nowrap;
       }
       
       @media (max-width: 600px) {
@@ -273,7 +286,7 @@
                 required
               >
           
-              <button type="submit">Notify me</button>
+              <button type="submit">🔔 Notify me</button>
             </div>
           
             <input type="hidden" name="paper_title" value="{{ title | strip_html }}">
