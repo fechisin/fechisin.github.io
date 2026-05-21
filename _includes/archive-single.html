@@ -112,8 +112,15 @@
         margin-left: 0.5rem;
       }
       
+      .notify-row {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      
       .notify-form input[type="email"] {
         width: 210px;
+        min-width: 0;
         padding: 0.35rem 0.5rem;
         border: 1px solid #ccc;
         border-radius: 999px;
@@ -121,6 +128,8 @@
       }
       
       .notify-form button {
+        flex-shrink: 0;
+        width: auto;
         padding: 0.35rem 0.75rem;
         border: none;
         border-radius: 999px;
@@ -130,34 +139,28 @@
         cursor: pointer;
       }
       
-      .notify-form button:hover {
-        background-color: #004f99;
-      }
-      
-      .notify-note {
-        display: block;
-        margin-top: 0.35rem;
-        color: #666;
-        font-size: 0.75rem;
-      }
-      
       @media (max-width: 600px) {
         .notify-form {
           display: block;
           margin-left: 0;
           margin-top: 0.5rem;
+          max-width: 100%;
+        }
+      
+        .notify-row {
+          display: flex;
+          width: 100%;
         }
       
         .notify-form input[type="email"] {
-          width: 100%;
-          box-sizing: border-box;
-          margin-bottom: 0.35rem;
+          flex: 1;
+          width: auto;
+          min-width: 0;
         }
       
         .notify-form button {
+          flex-shrink: 0;
           width: auto;
-          display: block;
-          margin: 0 auto;
         }
       }
 
@@ -258,24 +261,25 @@
         {% if post.journal == "In Preparation" %}
           <form
             class="notify-form"
-            action="https://formspree.io/f/mqejqdnz"
+            action="https://formspree.io/f/YOUR_FORM_ID"
             method="POST"
           >
-            <input
-              type="email"
-              name="email"
-              placeholder="your email"
-              aria-label="Email address"
-              required
-            >
-      
+            <div class="notify-row">
+              <input
+                type="email"
+                name="email"
+                placeholder="your email"
+                aria-label="Email address"
+                required
+              >
+          
+              <button type="submit">Notify me</button>
+            </div>
+          
             <input type="hidden" name="paper_title" value="{{ title | strip_html }}">
-            <input type="hidden" name="paper_anchor" value="{{ post.anchor }}">
             <input type="hidden" name="page_url" value="{{ site.url }}{{ page.url }}#{{ post.anchor }}">
-            <input type="hidden" name="message" value="Please notify me when this work is posted.">
-      
-            <button type="submit">Notify me</button>
-            <span class="notify-note">You'll receive one email when this work is available on arXiv.</span>
+          
+            <span class="notify-note">One email when this work is available.</span>
           </form>
         {% endif %}
       
