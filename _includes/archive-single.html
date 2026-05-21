@@ -107,6 +107,58 @@
         background-color: #992C0B;
       }
 
+      .notify-form {
+        display: inline-block;
+        margin-left: 0.5rem;
+      }
+      
+      .notify-form input[type="email"] {
+        width: 210px;
+        padding: 0.35rem 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 999px;
+        font-size: 0.85rem;
+      }
+      
+      .notify-form button {
+        padding: 0.35rem 0.75rem;
+        border: none;
+        border-radius: 999px;
+        background-color: #0066cc;
+        color: white;
+        font-size: 0.85rem;
+        cursor: pointer;
+      }
+      
+      .notify-form button:hover {
+        background-color: #004f99;
+      }
+      
+      .notify-note {
+        display: block;
+        margin-top: 0.35rem;
+        color: #666;
+        font-size: 0.75rem;
+      }
+      
+      @media (max-width: 600px) {
+        .notify-form {
+          display: block;
+          margin-left: 0;
+          margin-top: 0.5rem;
+        }
+      
+        .notify-form input[type="email"] {
+          width: 100%;
+          box-sizing: border-box;
+          margin-bottom: 0.35rem;
+        }
+      
+        .notify-form button {
+          width: 100%;
+        }
+      }
+
 /*       .title {
         color: black !important; 
         text-decoration: none !important; 
@@ -196,20 +248,44 @@
             <em>{{ post.journal }}</em>
           {% endif %}
         {% endif %}
-    
+      
         {% if post.year %}
           ({{ post.year }})
         {% endif %}
-    
+      
+        {% if post.journal == "In Preparation" %}
+          <form
+            class="notify-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="your email"
+              aria-label="Email address"
+              required
+            >
+      
+            <input type="hidden" name="paper_title" value="{{ title | strip_html }}">
+            <input type="hidden" name="paper_anchor" value="{{ post.anchor }}">
+            <input type="hidden" name="page_url" value="{{ site.url }}{{ page.url }}#{{ post.anchor }}">
+            <input type="hidden" name="message" value="Please notify me when this work is posted.">
+      
+            <button type="submit">Notify me when posted</button>
+            <span class="notify-note">One email when this work is available.</span>
+          </form>
+        {% endif %}
+      
         {% if post.journal and post.arxiv %}
           &nbsp;|&nbsp;
         {% endif %}
-    
+      
         {% if post.arxiv %}
           <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a>
         {% endif %}
       </p>
-    {% endif %}
+      {% endif %}
 
       {% if post.read_time %}
       {% elsif post.read_time and post.collection == 'posts' %}
