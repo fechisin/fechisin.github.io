@@ -153,8 +153,6 @@
         align-items: center;
         justify-content: center;
         gap: 0.35rem;
-        flex-shrink: 0;
-        width: auto;
         padding: 0 0.9rem;
         border: none;
         border-radius: 999px;
@@ -162,6 +160,16 @@
         color: white;
         cursor: pointer;
         white-space: nowrap;
+        transition: background-color 0.2s ease;
+      }
+      
+      .notify-form button:hover {
+        background-color: #004f99;
+      }
+      
+      .notify-form button:focus-visible {
+        outline: 2px solid #004f99;
+        outline-offset: 3px;
       }
       
       .notify-icon {
