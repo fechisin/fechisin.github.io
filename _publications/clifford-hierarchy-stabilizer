@@ -1,0 +1,19 @@
+---
+title: "A Clifford hierarchy stabilizer formalism (with applications to twisted quantum doubles)"
+collection: publications
+permalink: /publications/clifford-hierarchy-stabilizer
+anchor: clifford-hierarchy-stabilizer
+excerpt: 'We introduce a stabilizer formalism based on the Clifford hierarchy, which generalizes the Pauli stabilizer formalism by combining Pauli-X operators with diagonal operators drawn from a fixed level of the Clifford hierarchy on prime-dimensional qudits. This yields a natural class of beyond-Pauli stabilizer models, including many twisted quantum double phases. Using this framework and focusing on a minimal example, we construct a logical qudit and an explicit non-Clifford transversal logical gate.'
+date: 2026-06-2
+journal: 'In Preparation'
+year:
+venue:
+citation: '<b>Christopher Fechisin</b>, Kieran Cooney, Mathi Raja, Kyle Kawagoe, Victor V. Albert, Dominic Williamson, Seth Musser'
+arxiv:
+link:
+imgurl:
+tags:
+  - cond-mat
+  - quant-ph
+---
+Description
