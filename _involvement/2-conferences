@@ -2,66 +2,86 @@
 title: "💼 Conferences Attended"
 collection: involvement
 ---
-  
-<p>
-  <strong>Talks</strong>
-</p>
-  
+
 <style>
-  .conference-details {
-    padding-left: 20px;
-    margin-top: 5px;
+  .conference-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .conference-entry {
+    margin-bottom: 1rem;
+  }
+
+  .conference-title {
+    font-weight: 600;
+  }
+
+  .conference-meta {
+    font-style: italic;
+    color: #555;
+  }
+
+  .conference-detail {
+    margin-left: 1rem;
   }
 </style>
-  
-<details>
-  <summary>APS Global Physics Summit 2025</summary>
-  <div class="conference-details">
-    Anaheim, CA — March 16–21, 2025 <br>
-    Title: <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
+
+<h2>Talks</h2>
+
+<div class="conference-section">
+
+  <div class="conference-entry">
+    <div class="conference-title">APS Global Physics Summit 2025</div>
+    <div class="conference-meta">Anaheim, CA | March 16–21, 2025</div>
+    <div class="conference-detail">
+      <strong>Title:</strong> <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
+    </div>
   </div>
-</details>
-  
-<details>
-  <summary>SPIE Defense + Commercial Sensing 2023</summary>
-  <div class="conference-details">
-    Orlando, FL — April 30–May 4, 2023 <br>
-    Title: <em>Quantum non-demolition photon counting in a 2d Rydberg atom array</em>
+
+  <div class="conference-entry">
+    <div class="conference-title">SPIE Defense + Commercial Sensing 2023</div>
+    <div class="conference-meta">Orlando, FL | April 30–May 4, 2023</div>
+    <div class="conference-detail">
+      <strong>Title:</strong> <em>Quantum Non-Demolition Photon Counting in a 2D Rydberg Atom Array</em>
+    </div>
   </div>
-</details>
-  
-<details>
-  <summary>APS March Meeting 2021</summary>
-  <div class="conference-details">
-    Virtual — March 15-19, 2021 <br>
-    Title: <em>Mesoscopic Material Properties from Magnon Scattering in Thin Films</em>
+
+  <div class="conference-entry">
+    <div class="conference-title">APS March Meeting 2021</div>
+    <div class="conference-meta">Virtual | March 15–19, 2021</div>
+    <div class="conference-detail">
+      <strong>Title:</strong> <em>Mesoscopic Material Properties from Magnon Scattering in Thin Films</em>
+    </div>
   </div>
-</details>
-  
-<p>
-  <strong>Posters</strong>
-</p>
-  
-<details>
-  <summary>Institute for Robust Quantum Simulation Workshop 2025</summary>
-  <div class="conference-details">
-    Durham, NC — June 4–5, 2025
+
+</div>
+
+<h2>Posters</h2>
+
+<div class="conference-section">
+
+  <div class="conference-entry">
+    <div class="conference-title">Institute for Robust Quantum Simulation Workshop 2025</div>
+    <div class="conference-meta">Durham, NC | June 4–5, 2025</div>
   </div>
-</details>
-  
-<details>
-  <summary>Princeton Summer School on Condensed Matter Physics 2023</summary>
-  <div class="conference-details">
-    Princeton, NJ — July 10–14, 2023 <br>
-    School Topic: "Fractionalization, criticality and unconventional quantum materials" <br>
-    Title: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+
+  <div class="conference-entry">
+    <div class="conference-title">Princeton Summer School on Condensed Matter Physics 2023</div>
+    <div class="conference-meta">Princeton, NJ | July 10–14, 2023</div>
+    <div class="conference-detail">
+      <strong>School Topic:</strong> <em>Fractionalization, Criticality, and Unconventional Quantum Materials</em>
+    </div>
+    <div class="conference-detail">
+      <strong>Title:</strong> <em>Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State</em>
+    </div>
   </div>
-</details>
-    
-<details>
-  <summary>Quantum Information Processing (QIP) 2023</summary>
-  <div class="conference-details">
-    Ghent, Belgium — February 6–10, 2023 <br>
-    Title: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+
+  <div class="conference-entry">
+    <div class="conference-title">Quantum Information Processing (QIP) 2023</div>
+    <div class="conference-meta">Ghent, Belgium | February 6–10, 2023</div>
+    <div class="conference-detail">
+      <strong>Title:</strong> <em>Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State</em>
+    </div>
   </div>
-</details>
+
+</div>
