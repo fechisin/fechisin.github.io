@@ -1,9 +1,11 @@
 ---
-title: "💼 Presentations"
+title: "Presentations"
 collection: involvement
 ---
 
 <style>
+.cv-entry { margin-bottom: 1.25rem; }
+
 .cv-line {
   display: flex;
   justify-content: space-between;
@@ -20,44 +22,58 @@ collection: involvement
 .cv-detail {
   margin-left: 1rem;
 }
-
-.cv-entry {
-  margin-bottom: 1.25rem;
-}
 </style>
 
-<div class="cv-entry" markdown="1">
-<span class="cv-line">APS Global Physics Summit 2025 <span class="cv-date">March 16–21, 2025</span></span>
-<div class="cv-detail"><em>Contributed Talk</em> · Anaheim, CA</div>
-<div class="cv-detail"><em>Crystalline Symmetry-Enriched Quantum Criticality</em></div>
+<div class="cv-entry">
+  <div class="cv-line">
+    <span>APS Global Physics Summit 2025</span>
+    <span class="cv-date">March 16–21, 2025</span>
+  </div>
+  <div class="cv-detail"><em>Contributed Talk</em> · Anaheim, CA</div>
+  <div class="cv-detail"><em>Crystalline Symmetry-Enriched Quantum Criticality</em></div>
 </div>
 
-<div class="cv-entry" markdown="1">
-<span class="cv-line">Institute for Robust Quantum Simulation Workshop 2025 <span class="cv-date">June 4–5, 2025</span></span>
-<div class="cv-detail"><em>Poster</em> · Durham, NC</div>
+<div class="cv-entry">
+  <div class="cv-line">
+    <span>Institute for Robust Quantum Simulation Workshop 2025</span>
+    <span class="cv-date">June 4–5, 2025</span>
+  </div>
+  <div class="cv-detail"><em>Poster</em> · Durham, NC</div>
 </div>
 
-<div class="cv-entry" markdown="1">
-<span class="cv-line">Princeton Summer School on Condensed Matter Physics 2023 <span class="cv-date">July 10–14, 2023</span></span>
-<div class="cv-detail"><em>Poster</em> · Princeton, NJ</div>
-<div class="cv-detail"><strong>School Topic:</strong> <em>Fractionalization, Criticality, and Unconventional Quantum Materials</em></div>
-<div class="cv-detail"><em>Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State</em></div>
+<div class="cv-entry">
+  <div class="cv-line">
+    <span>Princeton Summer School on Condensed Matter Physics 2023</span>
+    <span class="cv-date">July 10–14, 2023</span>
+  </div>
+  <div class="cv-detail"><em>Poster</em> · Princeton, NJ</div>
+  <div class="cv-detail"><strong>School Topic:</strong> <em>Fractionalization, Criticality, and Unconventional Quantum Materials</em></div>
+  <div class="cv-detail"><em>Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State</em></div>
 </div>
 
-<div class="cv-entry" markdown="1">
-<span class="cv-line">SPIE Defense + Commercial Sensing 2023 <span class="cv-date">April 30–May 4, 2023</span></span>
-<div class="cv-detail"><em>Contributed Talk</em> · Orlando, FL</div>
-<div class="cv-detail"><em>Quantum Non-Demolition Photon Counting in a 2D Rydberg Atom Array</em></div>
+<div class="cv-entry">
+  <div class="cv-line">
+    <span>SPIE Defense + Commercial Sensing 2023</span>
+    <span class="cv-date">April 30–May 4, 2023</span>
+  </div>
+  <div class="cv-detail"><em>Contributed Talk</em> · Orlando, FL</div>
+  <div class="cv-detail"><em>Quantum Non-Demolition Photon Counting in a 2D Rydberg Atom Array</em></div>
 </div>
 
-<div class="cv-entry" markdown="1">
-<span class="cv-line">Quantum Information Processing (QIP) 2023 <span class="cv-date">February 6–10, 2023</span></span>
-<div class="cv-detail"><em>Poster</em> · Ghent, Belgium</div>
-<div class="cv-detail"><em>Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State</em></div>
+<div class="cv-entry">
+  <div class="cv-line">
+    <span>Quantum Information Processing (QIP) 2023</span>
+    <span class="cv-date">February 6–10, 2023</span>
+  </div>
+  <div class="cv-detail"><em>Poster</em> · Ghent, Belgium</div>
+  <div class="cv-detail"><em>Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State</em></div>
 </div>
 
-<div class="cv-entry" markdown="1">
-<span class="cv-line">APS March Meeting 2021 <span class="cv-date">March 15–19, 2021</span></span>
-<div class="cv-detail"><em>Contributed Talk</em> · Virtual</div>
-<div class="cv-detail"><em>Mesoscopic Material Properties from Magnon Scattering in Thin Films</em></div>
+<div class="cv-entry">
+  <div class="cv-line">
+    <span>APS March Meeting 2021</span>
+    <span class="cv-date">March 15–19, 2021</span>
+  </div>
+  <div class="cv-detail"><em>Contributed Talk</em> · Virtual</div>
+  <div class="cv-detail"><em>Mesoscopic Material Properties from Magnon Scattering in Thin Films</em></div>
 </div>
