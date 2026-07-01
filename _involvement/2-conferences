@@ -2,37 +2,66 @@
 title: "💼 Presentations"
 collection: involvement
 ---
-
-**APS Global Physics Summit 2025**
-: <em>Contributed Talk</em> · Anaheim, CA · March 16–21, 2025
-: *Crystalline Symmetry-Enriched Quantum Criticality*
-<br>
-<br>
-
-**Institute for Robust Quantum Simulation Workshop 2025**
-: <em>Poster</em> · Durham, NC · June 4–5, 2025
-<br>
-<br>
-
-**Princeton Summer School on Condensed Matter Physics 2023**
-: <em>Poster</em> · Princeton, NJ · July 10–14, 2023
-: School topic: *Fractionalization, Criticality, and Unconventional Quantum Materials*
-: *Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State*
-<br>
-<br>
-
-**SPIE Defense + Commercial Sensing 2023**
-: <em>Contributed Talk</em> · Orlando, FL · April 30–May 4, 2023
-: *Quantum Non-Demolition Photon Counting in a 2D Rydberg Atom Array*
-<br>
-<br>
-
-**Quantum Information Processing (QIP) 2023**
-: <em>Poster</em> · Ghent, Belgium · February 6–10, 2023
-: *Fusion Category Symmetry-Protected Topological Order in the Generalized Cluster State*
-<br>
-<br>
-
-**APS March Meeting 2021**
-: <em>Contributed Talk</em> · Virtual · March 15–19, 2021
-: *Mesoscopic Material Properties from Magnon Scattering in Thin Films*
+  
+<p>
+  <strong>Talks</strong>
+</p>
+  
+<style>
+  .conference-details {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+</style>
+  
+<details>
+  <summary>APS Global Physics Summit 2025</summary>
+  <div class="conference-details">
+    Anaheim, CA — March 16–21, 2025 <br>
+    Title: <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
+  </div>
+</details>
+  
+<details>
+  <summary>SPIE Defense + Commercial Sensing 2023</summary>
+  <div class="conference-details">
+    Orlando, FL — April 30–May 4, 2023 <br>
+    Title: <em>Quantum non-demolition photon counting in a 2d Rydberg atom array</em>
+  </div>
+</details>
+  
+<details>
+  <summary>APS March Meeting 2021</summary>
+  <div class="conference-details">
+    Virtual — March 15-19, 2021 <br>
+    Title: <em>Mesoscopic Material Properties from Magnon Scattering in Thin Films</em>
+  </div>
+</details>
+  
+<p>
+  <strong>Posters</strong>
+</p>
+  
+<details>
+  <summary>Institute for Robust Quantum Simulation Workshop 2025</summary>
+  <div class="conference-details">
+    Durham, NC — June 4–5, 2025
+  </div>
+</details>
+  
+<details>
+  <summary>Princeton Summer School on Condensed Matter Physics 2023</summary>
+  <div class="conference-details">
+    Princeton, NJ — July 10–14, 2023 <br>
+    School Topic: "Fractionalization, criticality and unconventional quantum materials" <br>
+    Title: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+  </div>
+</details>
+    
+<details>
+  <summary>Quantum Information Processing (QIP) 2023</summary>
+  <div class="conference-details">
+    Ghent, Belgium — February 6–10, 2023 <br>
+    Title: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+  </div>
+</details>
