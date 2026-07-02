@@ -1,67 +1,161 @@
 ---
 title: "💼 Presentations"
 collection: involvement
+layout: archive
 ---
-  
-<p>
-  <strong>Talks</strong>
-</p>
-  
+
 <style>
-  .conference-details {
-    padding-left: 20px;
-    margin-top: 5px;
+.talk-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.talk-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.talk-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.talk-details {
+  flex: 1;
+}
+
+.talk-title {
+  font-weight: 550;
+}
+
+.talk-date {
+  flex-shrink: 0;
+  margin-left: auto;
+  white-space: nowrap;
+  text-align: right;
+  color: #7a7a7a;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .talk-row {
+    flex-direction: column;
   }
+
+  .talk-date {
+    margin-left: 0;
+    text-align: left;
+  }
+}
 </style>
-  
-<details>
-  <summary>APS Global Physics Summit 2025</summary>
-  <div class="conference-details">
-    Anaheim, CA — March 16–21, 2025 <br>
-    Title: <em>Crystalline Symmetry-Enriched Quantum Criticality</em>
+
+<strong><em>Talks</em></strong>
+
+♦ denotes an invited talk
+
+<div class="talk-list">
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">Andrew Lucas Group Meeting ♦</span><br>
+      <em>A Clifford hierarchy stabilizer formalism (with applications to twisted quantum double models)</em>
+    </div>
+    <div class="talk-date">
+      May 2026<br>
+      CU Boulder
+    </div>
   </div>
-</details>
-  
-<details>
-  <summary>SPIE Defense + Commercial Sensing 2023</summary>
-  <div class="conference-details">
-    Orlando, FL — April 30–May 4, 2023 <br>
-    Title: <em>Quantum non-demolition photon counting in a 2d Rydberg atom array</em>
+
+<div class="talk-list">
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">APS Global Physics Summit</span><br>
+      <em>Crystalline symmetry-enriched quantum criticality</em>
+    </div>
+    <div class="talk-date">
+      March 2025<br>
+      Anaheim, CA
+    </div>
   </div>
-</details>
-  
-<details>
-  <summary>APS March Meeting 2021</summary>
-  <div class="conference-details">
-    Virtual — March 15-19, 2021 <br>
-    Title: <em>Mesoscopic Material Properties from Magnon Scattering in Thin Films</em>
+
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">SPIE Defense + Commercial Sensing ♦</span><br>
+      <em>Quantum non-demolition photon counting in a 2D Rydberg atom array</em>
+    </div>
+    <div class="talk-date">
+      May 2023<br>
+      Orlando, FL
+    </div>
   </div>
-</details>
-  
-<p>
-  <strong>Posters</strong>
-</p>
-  
-<details>
-  <summary>Institute for Robust Quantum Simulation Workshop 2025</summary>
-  <div class="conference-details">
-    Durham, NC — June 4–5, 2025
+
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">APS March Meeting</span><br>
+      <em>Mesoscopic material properties from magnon scattering in thin films</em>
+    </div>
+    <div class="talk-date">
+      March 2021<br>
+      Virtual
+    </div>
   </div>
-</details>
-  
-<details>
-  <summary>Princeton Summer School on Condensed Matter Physics 2023</summary>
-  <div class="conference-details">
-    Princeton, NJ — July 10–14, 2023 <br>
-    School Topic: "Fractionalization, criticality and unconventional quantum materials" <br>
-    Title: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+</div>
+
+<br>
+
+<strong><em>Posters</em></strong>
+
+<div class="talk-list">
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">Physics of Quantum Information II</span><br>
+      <em>Mixed-state phase transitions induced by power-law quantum channels</em>
+    </div>
+    <div class="talk-date">
+      May 2026<br>
+      Perimeter Institute
+    </div>
   </div>
-</details>
-    
-<details>
-  <summary>Quantum Information Processing (QIP) 2023</summary>
-  <div class="conference-details">
-    Ghent, Belgium — February 6–10, 2023 <br>
-    Title: <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+
+<div class="talk-list">
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">Institute for Robust Quantum Simulation Workshop</span><br>
+      <em>Crystalline symmetry-enriched quantum criticality</em>
+    </div>
+    <div class="talk-date">
+      June 2025<br>
+      Duke University
+    </div>
   </div>
-</details>
+
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">Princeton Summer School on Condensed Matter Physics</span><br>
+      <!-- <span>School Topic: <em>Fractionalization, criticality and unconventional quantum materials</em></span><br> -->
+      <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+    </div>
+    <div class="talk-date">
+      July 2023<br>
+      Princeton University
+    </div>
+  </div>
+
+  <div class="talk-row">
+    <div class="talk-details">
+      <span class="talk-title">Quantum Information Processing (QIP)</span><br>
+      <em>Fusion category symmetry-protected topological order in the generalized cluster state</em>
+    </div>
+    <div class="talk-date">
+      February 2023<br>
+      Ghent University
+    </div>
+  </div>
+</div>
+
+
