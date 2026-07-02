@@ -243,6 +243,21 @@
     .archive__item-excerpt {
     text-align: justify !important;
     }
+
+    .archive__item-involvement {
+      font-size: 1rem !important;
+      line-height: 1.6;
+      text-align: left !important;
+    }
+
+    .archive__item-involvement p,
+    .archive__item-involvement ul,
+    .archive__item-involvement li,
+    .archive__item-involvement dt,
+    .archive__item-involvement dd {
+      font-size: inherit;
+      line-height: inherit;
+    }
 </style>
 
 <div class="publication-item container" data-tags="{{ post.tags | join: ',' }}">
@@ -389,7 +404,9 @@
         <p style="high">{{ post.citation }}</p>
       {% endif %}
 
-      {% if post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %} 
+      {% if post.collection == 'involvement' and post.content %}
+      <div class="archive__item-excerpt archive__item-involvement" itemprop="description" style="font-size: 1rem !important; line-height: 1.6; text-align: left !important;">{{ post.content }}</div>
+      {% elsif post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %} 
       <p class="archive__item-excerpt" itemprop="description"> 
         <a href="{{ base_path }}{{ post.url }}" rel="permalink"> 
           <div class="container"> {{ post.excerpt }} 
