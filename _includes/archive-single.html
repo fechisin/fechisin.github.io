@@ -240,7 +240,7 @@
         transform-origin: left;
       } */
 
-    .archive__item-excerpt {
+</span>    .archive__item-excerpt {
     text-align: justify !important;
     }
 
@@ -262,7 +262,7 @@
 
 <div class="publication-item container" data-tags="{{ post.tags | join: ',' }}">
   <div class="{{ include.type | default: "list" }}__item">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <article class="archive__item{% if post.collection == 'publications' %} publication-row{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
       {% if include.type == "grid" and teaser %}
         <div class="archive__item-teaser">
           <img src=
