@@ -405,7 +405,9 @@
       {% endif %}
 
       {% if post.collection == 'involvement' and post.content %}
-      <div class="archive__item-excerpt archive__item-involvement" itemprop="description" style="font-size: 1rem !important; line-height: 1.6; text-align: left !important;">{{ post.content }}</div>
+      <div class="archive__item-excerpt archive__item-involvement" itemprop="description" style="font-size: 1rem !important; line-height: 1.6; text-align: left !important;">
+        {{ post.content | markdownify }}
+      </div>
       {% elsif post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %} 
       <p class="archive__item-excerpt" itemprop="description"> 
         <a href="{{ base_path }}{{ post.url }}" rel="permalink"> 
