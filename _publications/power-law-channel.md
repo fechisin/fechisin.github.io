@@ -8,7 +8,7 @@ date: 2026-09-30
 journal:
 year:
 venue: 'arXiv'
-citation: '<b>Christopher Fechisin</b>, Jeet Shah, Tsung-Cheng Lu, Zhi-Yuan Wei, Yu-Xin Wang, Alexey V. Gorshkov, Cheng-Ju Lin'
+citation: '<b>Christopher Fechisin</b>, Tsung-Cheng Lu, Zhi-Yuan Wei, Jeet Shah, Yu-Xin Wang, Alexey V. Gorshkov, Cheng-Ju Lin'
 arxiv: '2610.00480'
 link: 'https://arxiv.org/abs/2610.00480'
 imgurl:
