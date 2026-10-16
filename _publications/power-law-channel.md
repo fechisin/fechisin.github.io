@@ -1,5 +1,5 @@
 ---
-title: "Mixed-state phase transitions induced by power-law quantum channels"
+title: "Mixed-state phases induced by power-law quantum channels"
 collection: publications
 permalink: /publications/power-law-channel
 anchor: power-law-channel
