@@ -1,7 +1,8 @@
 ---
 title: "Instability of steady-state mixed-state symmetry-protected topological order to strong-to-weak spontaneous symmetry breaking"
 collection: publications
-permalink: /publication/lindblad-SPT
+permalink: /publications/lindblad-SPT
+redirect_from: /publication/lindblad-SPT
 excerpt: 'In this work, we interrogate the analogy between (i) pure state SPTs as ground states of local Hamiltonians and (ii) mixed state SPTs as steady states of local Lindbladians. We construct a Lindbladian which hosts a simple mixed-state SPT within its steady-state subspace, then add symmetric local perturbations to see if the new steady states lie in the same mixed-state phase as the original. We find that for generic symmetric perturbations, the answer is no, due to the onset of strong-to-weak spontaneous symmetry breaking.'
 date: 2025-11-17
 venue: 'Quantum'

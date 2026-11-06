@@ -147,6 +147,39 @@ exclude:
   - package.json
   - tmp
   - vendor
+  # --- Unused pages/sections kept in the repo but left out of the build. ---
+  # To bring one back, comment out or delete its line(s) here.
+  # CV
+  - _pages/cv.md
+  # Template demo pages
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/archive-layout-with-content.md
+  - _pages/page-archive.html
+  - _pages/collection-archive.html
+  - _pages/terms.md
+  - _pages/sitemap.md
+  # Blog
+  - _posts
+  - _drafts
+  - _pages/year-archive.html
+  - _pages/category-archive.html
+  # Talks + talk map (real talks live on the Involvement page)
+  - _talks
+  - _pages/talks.html
+  - _pages/talkmap.html
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  # Teaching + Portfolio
+  - _teaching
+  - _pages/teaching.html
+  - _portfolio
+  - _pages/portfolio.html
+  # Tooling / scratch files, not site content
+  - markdown_generator
+  - CONTRIBUTING.md
+  - README.md
 keep_files:
   - .git
   - .svn

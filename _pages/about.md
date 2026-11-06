@@ -38,7 +38,7 @@ h1, h2 {
 ======
 2021-Present: **PhD** in Theoretical Physics at the **University of Maryland**
 * Advisors: [Maissam Barkeshli](https://www.mbarkeshli.com/home) and [Alexey Gorshkov](https://groups.jqi.umd.edu/gorshkov/)
-* Other Collaborators: [Victor Albert](https://sites.google.com/site/victorvalbert), [Nathanan Tantivasadakarn](https://scholar.google.com/citations?user=QUj3lAIAAAAJ&hl=en), and [Zohar Komargodski](https://scgp.stonybrook.edu/people/faculty/bios/zohar-komargodski)
+* Other Collaborators: [Victor Albert](https://sites.google.com/site/victorvalbert), [Nathanan Tantivasadakarn](https://scholar.google.com/citations?user=QUj3lAIAAAAJ&hl=en), [Zohar Komargodski](https://scgp.stonybrook.edu/people/faculty/bios/zohar-komargodski), and [Dominic Williamson](https://sites.google.com/site/dominicjw/home)
 
 2017-2021: **AB** in Physics and Mathematics with highest honors at **Harvard University**
 * Advisors: [Eric Heller](https://www.physics.harvard.edu/people/facpages/heller) and [Eugene Demler](https://www.phys.ethz.ch/the-department/people/person-detail.MjE0OTUw.TGlzdC84NDUsMTE3MjU5OTI5OQ==.html)
@@ -48,8 +48,8 @@ h1, h2 {
 <!-- I've generated a word cloud from my publications and notes to give a big-picture overview of my interests. It was last updated in October 2025. 
 
 ![A word cloud of research interests. The most prominent words include "quantum," "state," "symmetry," and "topological."](/images/October25.png "Interests word cloud") -->
-<p>I've generated a word cloud from my publications and notes to give a big-picture overview of my interests. It was last updated in October 2025. </p>
-<img src="/images/october25.png" alt="A word cloud of research interests. The most prominent words include quantum, state, symmetry, and topological." style="display:block; margin:0em auto; max-width:100%;">
+<p>This word cloud is generated from my publications to give a big-picture overview of my research.</p>
+<img src="/images/wordcloud_nov_26.svg" alt="A word cloud of research interests. The most prominent words include symmetry, SPT, operator, order, group, and phase." style="display:block; margin:0em auto; max-width:100%;">
 
 <!-- How did I get here?
 ======

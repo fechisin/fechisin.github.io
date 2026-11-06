@@ -11,7 +11,7 @@ venue: 'arXiv'
 citation: '<b>Christopher Fechisin</b>, Tsung-Cheng Lu, Zhi-Yuan Wei, Jeet Shah, Yu-Xin Wang, Alexey V. Gorshkov, Cheng-Ju Lin'
 arxiv: '2610.00480'
 link: 'https://arxiv.org/abs/2610.00480'
-imgurl:
+imgurl: '/images/power_law_fig.png'
 tags:
   - Mixed States
   - SPT Phases

@@ -55,7 +55,7 @@ layout: archive
 }
 </style>
 
-<strong><em>Talks</em></strong> | ♦ denotes an invited talk
+<p><strong><em>Talks</em></strong> | ♦ denotes an invited talk</p>
 
 <div class="talk-list">
   <div class="talk-row">
@@ -68,8 +68,6 @@ layout: archive
       CU Boulder
     </div>
   </div>
-
-<div class="talk-list">
   <div class="talk-row">
     <div class="talk-details">
       <span class="talk-title">APS Global Physics Summit</span><br>
@@ -119,8 +117,6 @@ layout: archive
       Perimeter Institute
     </div>
   </div>
-
-<div class="talk-list">
   <div class="talk-row">
     <div class="talk-details">
       <span class="talk-title">Institute for Robust Quantum Simulation Workshop</span><br>

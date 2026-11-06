@@ -1,7 +1,8 @@
 ---
-title: "Quantum Non-Demolition Photon Counting in a 2d Rydberg Atom Array"
+title: "Quantum non-demolition photon counting in a 2d Rydberg atom array"
 collection: publications
-permalink: /publication/rydberg-photons
+permalink: /publications/rydberg-photons
+redirect_from: /publication/rydberg-photons
 excerpt: 'Rydberg arrays exhibit remarkable many-body physics due to strong Rydberg-Rydberg interactions which are possible between their constituent atoms. We present a protocol which leverages this physics to non-destructively count photons by temporarily storing them in the array.'
 date: 2022-10-19
 venue: 'arXiv'

@@ -10,7 +10,7 @@ venue: 'arXiv'
 citation: '<b>Christopher Fechisin</b>, Kieran Cooney, Mathi Raja, Kyle Kawagoe, Victor V. Albert, Dominic Williamson, Seth Musser'
 arxiv: '2610.00464'
 link: 'https://arxiv.org/abs/2610.00464'
-imgurl:
+imgurl: '/images/clifford_fig.png'
 tags:
   - cond-mat
   - quant-ph

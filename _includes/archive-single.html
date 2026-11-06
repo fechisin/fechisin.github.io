@@ -244,6 +244,141 @@
     text-align: justify !important;
     }
 
+    /* Publications: date line under the title */
+    .pub-date {
+      margin: 0.1rem 0 0.75rem 0;
+      font-size: 0.85rem;
+      color: #7a7a7a;
+      letter-spacing: 0.2px;
+    }
+
+    /* Publications: one shared right edge for all text (the theme gives every <p>
+       a 2em right margin, which made titles run wider than authors/abstracts);
+       the gap moves to the figure instead */
+    .pub-entry p {
+      margin-right: 0;
+    }
+    .pub-entry .image {
+      margin-left: 2em;
+    }
+
+    /* Publications: thin gray divider between entries */
+    .pub-entry ~ .pub-entry {
+      border-top: 1px solid #e3e3e3;
+      margin-top: 1.75rem;
+      padding-top: 1.75rem;
+    }
+    .pub-entry ~ .pub-entry .archive__item-title {
+      margin-top: 0;
+    }
+
+    /* Publications: action row (journal / arXiv / abstract) + sliding abstract */
+    .pub-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem 1.4rem;
+      margin: 0 0 0.9rem 0;
+      font-size: 0.9rem;
+    }
+    .pub-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0;
+      border: 0;
+      background: none;
+      font: inherit;
+      color: #52adc8;
+      text-decoration: none;
+      cursor: pointer;
+      transition: color 0.15s ease;
+    }
+    .pub-action:hover {
+      color: #2f7f97;
+    }
+    .pub-action:hover > span:not(.pub-chevron) {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .pub-action:focus-visible {
+      outline: 2px solid #52adc8;
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+    .pub-action--static {
+      color: inherit;
+      cursor: default;
+    }
+    .pub-action i {
+      font-size: 0.95em;
+      opacity: 0.85;
+    }
+    .pub-chevron {
+      width: 0.4em;
+      height: 0.4em;
+      margin-left: 0.1rem;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      transform: translateY(-0.12em) rotate(45deg);
+      transition: transform 0.25s ease;
+    }
+    .pub-abstract-toggle[aria-expanded="true"] .pub-chevron {
+      transform: translateY(0.1em) rotate(-135deg);
+    }
+
+    /* Fade-out abstract teaser: ~2 lines visible, fading; expands in place */
+    .pub-abstract {
+      margin: 0 0 0.9rem 0;
+    }
+    .pub-abstract__text {
+      max-height: 3.3em;
+      overflow: hidden;
+      -webkit-mask-image: linear-gradient(to bottom, #000 30%, transparent 100%);
+              mask-image: linear-gradient(to bottom, #000 30%, transparent 100%);
+      transition: max-height 0.4s ease;
+    }
+    .pub-abstract.is-open .pub-abstract__text {
+      -webkit-mask-image: none;
+              mask-image: none;
+    }
+    .pub-abstract__text > :first-child {
+      margin-top: 0;
+    }
+    .pub-abstract__text > :last-child {
+      margin-bottom: 0;
+    }
+    .pub-abstract-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 0.35rem;
+      padding: 0;
+      border: 0;
+      background: none;
+      font: inherit;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      color: inherit;
+      cursor: pointer;
+    }
+    .pub-abstract-toggle:hover .pub-abstract-toggle__label {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .pub-abstract-toggle:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pub-abstract__text,
+      .pub-chevron {
+        transition: none;
+      }
+    }
+
     .archive__item-involvement {
       font-size: 1rem !important;
       line-height: 1.6;
@@ -260,7 +395,7 @@
     }
 </style>
 
-<div class="publication-item container" data-tags="{{ post.tags | join: ',' }}">
+<div class="publication-item container{% if post.collection == 'publications' %} pub-entry{% endif %}" data-tags="{{ post.tags | join: ',' }}">
   <div class="{{ include.type | default: "list" }}__item">
     <article class="archive__item{% if post.collection == 'publications' %} publication-row{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
       {% if include.type == "grid" and teaser %}
@@ -305,7 +440,15 @@
         {% endif %}
       </h2>
 
-      {% if post.journal or post.arxiv %}
+      {% if post.collection == 'publications' and post.date %}
+        <p class="pub-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+      {% endif %}
+
+      {% comment %} Publications show journal/arXiv in the action row below the authors instead (except "In Preparation", which keeps the notify form). {% endcomment %}
+      {% assign show_pub_meta = false %}
+      {% if post.journal or post.arxiv %}{% assign show_pub_meta = true %}{% endif %}
+      {% if post.collection == 'publications' and post.journal != "In Preparation" %}{% assign show_pub_meta = false %}{% endif %}
+      {% if show_pub_meta %}
       <div class="pub-meta">
         <p class="pub-meta-line">
           {% if post.journal %}
@@ -413,7 +556,33 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink"> 
           <div class="container"> {{ post.excerpt }} 
             <div class="overlay"> </div> 
-          </div> </a> </p> {% elsif post.excerpt and site.read_more != 'enabled' %} 
+          </div> </a> </p>
+      {% elsif post.collection == 'publications' %}
+        {% assign abstract_text = post.excerpt | strip_html | strip %}
+        {% assign pub_id = post.anchor | default: post.slug | slugify %}
+        {% assign has_journal = false %}
+        {% if post.journal and post.journal != "In Preparation" %}{% assign has_journal = true %}{% endif %}
+        {% if abstract_text != '' %}
+        <div class="pub-abstract">
+          <div class="pub-abstract__text" id="abstract-{{ pub_id }}" itemprop="description">{{ post.excerpt | markdownify }}</div>
+          <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="abstract-{{ pub_id }}"><span class="pub-abstract-toggle__label">Read more</span><span class="pub-chevron" aria-hidden="true"></span></button>
+        </div>
+        {% endif %}
+        {% if has_journal or post.arxiv %}
+        <div class="pub-actions">
+          {% if has_journal %}
+            {% if post.link %}
+              <a class="pub-action" href="{{ post.link }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open" aria-hidden="true"></i><span><em>{{ post.journal }}</em>{% if post.year %} ({{ post.year }}){% endif %}</span></a>
+            {% else %}
+              <span class="pub-action pub-action--static"><i class="fas fa-book-open" aria-hidden="true"></i><span><em>{{ post.journal }}</em>{% if post.year %} ({{ post.year }}){% endif %}</span></span>
+            {% endif %}
+          {% endif %}
+          {% if post.arxiv %}
+            <a class="pub-action" href="https://arxiv.org/abs/{{ post.arxiv }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i><span>arXiv:{{ post.arxiv }}</span></a>
+          {% endif %}
+        </div>
+        {% endif %}
+      {% elsif post.excerpt and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p> 
       
       {% elsif post.excerpt and site.read_more == 'enabled' %} 
@@ -441,3 +610,35 @@
     </div>
   {% endif %}
 </div>
+
+<script>
+  if (!window.__pubAbstractToggle) {
+    window.__pubAbstractToggle = true;
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('.pub-abstract-toggle');
+      if (!btn) return;
+      var text = document.getElementById(btn.getAttribute('aria-controls'));
+      if (!text) return;
+      var wrap = btn.closest('.pub-abstract');
+      var label = btn.querySelector('.pub-abstract-toggle__label');
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      btn.setAttribute('aria-expanded', open);
+      if (label) label.textContent = open ? 'Show less' : 'Read more';
+      if (open) {
+        // animate from the teaser height to the full height, then release the cap
+        text.style.maxHeight = text.scrollHeight + 'px';
+        wrap.classList.add('is-open');
+        text.addEventListener('transitionend', function done() {
+          if (btn.getAttribute('aria-expanded') === 'true') text.style.maxHeight = 'none';
+          text.removeEventListener('transitionend', done);
+        });
+      } else {
+        // pin the current height, then animate back down to the teaser height
+        text.style.maxHeight = text.scrollHeight + 'px';
+        void text.offsetHeight;
+        text.style.maxHeight = '';
+        wrap.classList.remove('is-open');
+      }
+    });
+  }
+</script>

@@ -1,5 +1,5 @@
 ---
-title: "Noninvertible Symmetry-Protected Topological Order in a Group-Based Cluster State"
+title: "Noninvertible symmetry-protected topological order in a group-based cluster state"
 collection: publications
 permalink: /publications/group-cluster
 anchor: group-cluster
