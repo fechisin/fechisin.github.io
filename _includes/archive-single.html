@@ -572,9 +572,9 @@
         <div class="pub-actions">
           {% if has_journal %}
             {% if post.link %}
-              <a class="pub-action" href="{{ post.link }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open" aria-hidden="true"></i><span><em>{{ post.journal }}</em>{% if post.year %} ({{ post.year }}){% endif %}</span></a>
+              <a class="pub-action" href="{{ post.link }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open" aria-hidden="true"></i><span><em>{{ post.journal }}</em></span></a>
             {% else %}
-              <span class="pub-action pub-action--static"><i class="fas fa-book-open" aria-hidden="true"></i><span><em>{{ post.journal }}</em>{% if post.year %} ({{ post.year }}){% endif %}</span></span>
+              <span class="pub-action pub-action--static"><i class="fas fa-book-open" aria-hidden="true"></i><span><em>{{ post.journal }}</em></span></span>
             {% endif %}
           {% endif %}
           {% if post.arxiv %}
@@ -625,7 +625,7 @@
       btn.setAttribute('aria-expanded', open);
       if (label) label.textContent = open ? 'Show less' : 'Read more';
       if (open) {
-        // animate from the teaser height to the full height, then release the cap
+        /* animate from the teaser height to the full height, then release the cap */
         text.style.maxHeight = text.scrollHeight + 'px';
         wrap.classList.add('is-open');
         text.addEventListener('transitionend', function done() {
@@ -633,7 +633,7 @@
           text.removeEventListener('transitionend', done);
         });
       } else {
-        // pin the current height, then animate back down to the teaser height
+        /* pin the current height, then animate back down to the teaser height */
         text.style.maxHeight = text.scrollHeight + 'px';
         void text.offsetHeight;
         text.style.maxHeight = '';
